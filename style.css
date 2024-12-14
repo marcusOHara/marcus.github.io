@@ -1,0 +1,28 @@
+:root {
+    --color1: #832161;
+    --color2: #DA4167;
+    --color3: #3D2645;
+    --color4: #F0EFF4;
+    --color5: #000000;
+}
+
+h1 {
+    background-color: var(--color5);
+    color: var(--color2);
+    text-align: center;
+}
+
+.resume > ul > li {
+    list-style: none;
+}
+.resume li h3 {
+    color: var(--color1);
+}
+
+.resume li p {
+    font-size: 10px;
+}
+
+footer a{
+    text-decoration: none;
+}
