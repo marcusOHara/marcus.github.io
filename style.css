@@ -2,28 +2,44 @@
     --color1: #832161;
     --color2: #DA4167;
     --color3: #3D2645;
-    --color4: #F0EFF4;
+    --color4: #E5E0D8;
     --color5: #000000;
 }
 
 body {
-    background-color: var(--color4);
+    background-color: var(--color5);
 }
 
 h1 {
-    background-color: var(--color5);
     color: var(--color2);
     text-align: center;
-    border-radius: 20px;
 }
 
 h2 {
+    color: var(--color3);
+    text-align: center;
+}
+
+h5 {
+    color: var(--color4);
+}
+
+p {
+    color: var(--color4);
+}
+
+.about {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.about p {
     text-align: center;
 }
 
 .resume > ul {
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 .resume > ul > li {
@@ -38,6 +54,10 @@ h2 {
 
 .resume ul > li > ul > li {
     text-align: left;
+}
+
+.resume ul > li > ul > li::marker {
+    color: pink;
 }
 
 .resume li h3 {
