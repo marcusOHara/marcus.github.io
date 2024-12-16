@@ -6,17 +6,43 @@
     --color5: #000000;
 }
 
+body {
+    background-color: var(--color4);
+}
+
 h1 {
     background-color: var(--color5);
     color: var(--color2);
     text-align: center;
+    border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.resume > ul {
+    margin: 0;
+    padding:0;
 }
 
 .resume > ul > li {
     list-style: none;
 }
+
+.resume ul > li > ul {
+    margin: 0 auto; 
+    padding: 0;
+    width: max-content;
+}
+
+.resume ul > li > ul > li {
+    text-align: left;
+}
+
 .resume li h3 {
     color: var(--color1);
+    text-align: center;
 }
 
 .resume li p {
@@ -25,4 +51,16 @@ h1 {
 
 footer a{
     text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 20px;
 }
