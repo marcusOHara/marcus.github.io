@@ -1,18 +1,27 @@
+@font-face {
+    font-family: LOT;
+    src: url(LOT.otf);
+}
+
 :root {
-    --color1: #832161;
+    --color1: #F4E3B2;
     --color2: #DA4167;
-    --color3: #3D2645;
-    --color4: #E5E0D8;
+    --color3: #F4D35E;
+    --color4: #49B8B2;
     --color5: #000000;
 }
 
 body {
-    background-color: var(--color5);
+    background-color: var(--color4);
 }
 
 h1 {
     color: var(--color2);
     text-align: center;
+    font-family: LOT;
+    height: 50%;
+    padding: 20px 20px 20px 20px;
+    font-size: 100px;
 }
 
 h2 {
@@ -21,11 +30,11 @@ h2 {
 }
 
 h5 {
-    color: var(--color4);
+    color: var(--color5);
 }
 
 p {
-    color: var(--color4);
+    color: var(--color5);
 }
 
 .about {
@@ -82,5 +91,8 @@ footer ul {
 
 footer li {
     display: inline-block;
+    background-color: var(--color3);
     margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
 }
